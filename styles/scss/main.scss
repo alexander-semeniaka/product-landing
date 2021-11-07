@@ -1,0 +1,18 @@
+/* global */
+@import "global/reset";
+@import "global/variable";
+@import "global/mixin";
+@import "global/fonts";
+@import "global/components";
+
+/* structure */
+@import "structure/container";
+
+// header
+@import "structure/header";
+
+// main
+@import "structure/main";
+	
+// footer
+@import "structure/footer";

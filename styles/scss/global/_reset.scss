@@ -1,0 +1,71 @@
+/* reset */
+
+// page style
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	margin: 0;
+	font-size: 1rem;
+}
+
+// text style
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	line-height: 1.15em;
+}
+
+p {
+	margin: 0;
+	line-height: 1.15em;
+}
+
+ol, ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+// action style
+a {
+	display: inline-block;
+	text-decoration: none;
+	color: inherit;
+}
+
+button {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	color: inherit;
+}
+
+input {
+	border: 1px solid;
+	padding: 0;
+	outline: none;
+}
+
+textarea {
+	margin: 0;
+	padding: 0;
+	border: 1px solid;
+	resize: none;
+	outline: none;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
