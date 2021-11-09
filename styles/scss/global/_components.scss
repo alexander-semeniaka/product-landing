@@ -1,9 +1,32 @@
-/* buttons */
+/* text */
+.overline-text {
+	font-size: 1.6em;
+	font-weight: 600;
+	line-height: 24 / 16 * 100%;
+}
 
+.section-title {
+	font-size: 3.2em;
+	font-weight: 700;
+	line-height: 48 / 32 * 100%;
+}
 
+.section-text {
+	font-size: 1.6em;
+	line-height: 160%;
+}
 
-/* links */
+.section-paragraph {
+	margin-bottom: 12px;
+	
+	&__title {
+		margin-bottom: 13px;
+		font-size: 1.6em;
+		font-weight: 600;
+	}
 
-
-
-/* menu */
+	&__text {
+		font-size: 1.6em;
+		line-height: 160%;
+	}
+}

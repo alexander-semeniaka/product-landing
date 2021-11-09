@@ -1,0 +1,135 @@
+/* footer */
+.footer {
+
+	margin-top: 150px;
+	padding-bottom: 45px;
+	@include poppins;
+
+	&__container {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+		gap: 30px;
+	}
+}
+
+// social-links
+.social-links {
+	display: flex;
+	flex-flow: column;
+}
+
+.footer-logo {
+	margin-bottom: 24px;
+	display: flex;
+	align-items: center;
+	gap: 16px;
+
+	&__icon {
+		width: 32px;
+		height: 29px;
+	}
+
+	&__text {
+		font-size: 2em;
+		font-weight: 700;
+		color: $footer-second-font;
+	}
+}
+
+.social-menu {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+
+	&__item {
+		width: 40px;
+		height: 40px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 50%;
+		background-color: $social-item-back;
+	}
+
+	&__link {
+		font-size: 2.4em;
+		color: $brand-color;
+	}
+}
+
+// footer-nav
+.footer-nav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex: 1 1 100%;
+	color: $footer-main-font;
+}
+
+.footer-menu {
+
+	&:nth-child(1) {
+		margin-right: 130px;
+	}
+
+	&__title {
+		margin-bottom: 8px;
+		font-size: 2em;
+		font-weight: 500;
+		line-height: 150%;
+	}
+}
+
+.footer-list {
+	display: flex;
+	flex-flow: column;
+	gap: 10px;
+
+	&__link {
+		font-size: 1.6em;
+	}
+}
+
+/* join-form */
+.join-form {
+	
+	&__title {
+		margin-bottom: 34px;
+		font-size: 2em;
+		font-weight: 500;
+		line-height: 150%;
+		color: $footer-main-font;
+	}
+
+	&__input {
+		width: 100%;
+		height: 48px;
+		margin-bottom: 21px;
+		border: 1px solid $input-border;
+		display: block;
+		border-radius: 4px;		
+		box-shadow: $input-shadow;
+	}
+
+	&__button {
+		padding: 8px 15px;
+		border-radius: 5px;
+		background-color: $brand-color;
+		font-family: inherit;
+		font-size: 1.6em;
+		font-weight: 700;
+		color: $global-white-font;
+	}
+}
+
+// copyright
+.copyright {
+	max-width: 430px;
+	margin: 0 auto;
+	margin-top: px;
+	padding: 0 15px;
+	font-size: 1.6em;
+	font-weight: 400;
+	color: $footer-main-font;
+}
